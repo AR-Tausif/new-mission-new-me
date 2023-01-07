@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;1,300&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+}
+
+
+/* Default css classes styles */
+
+.btn {
+    padding: 15px 20px;
+    border-radius: 7px;
+    border: none;
+}
+
+.btn-primary {
+    background: #F15B22;
+}
+
+header {
+    width: 100%;
+    height: 100vh;
+    background-image: url('../images/banner/banner1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header section {
+    float: right;
+    margin: 230px;
+}
+
+header .identity-text {
+    width: 500px;
+    text-align: right;
+}
+
+header .identity-text h2 {
+    font-size: 65px;
+}
+
+header .identity-text p {
+    color: #444343;
+    font-size: 16px;
+    line-height: 26px;
+    padding-top: 24px;
+    padding-bottom: 32px;
+}
+
+header .identity-text button {
+    font-size: 20px;
+    color: #fff;
+}
+
+
+/* Experiences added list */
+
+.section-first {
+    margin: 10px 320px;
+    /* width: 100%; */
+    height: 100vh;
+}
+
+.experiences-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+}
+
+.experiences-details {
+    width: 400px;
+    margin-top: 150px;
+}
+
+.experiences-details h3 {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.experiences-details p {
+    font-size: 16px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.experiences-details i {
+    color: #16D887;
+    font-size: 22px;
+    margin-right: 10px;
+}
+
+.experiences-details ul>li {
+    margin-top: 20px;
+}
+
+.experiences-details ul li {
+    text-decoration: none;
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+
+/* My Plans css styles */
+
+.center-texts {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.plan-icons {
+    display: flex;
+    justify-content: center;
+    gap: 86px;
+    margin-top: 56px;
+}
+
+.center-texts h2 {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 100px;
+}
+
+.plan-icons h4 {
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+.plan-icons p {
+    font-size: 25px;
+    color: #737272;
+}
+
+
+/* Section of banner with picture bg styles */
+
+.banner-bg {
+    /* margin: 150px 350px; */
+    height: 267px;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    margin-right: 450px;
+    margin-left: 450px;
+    background-repeat: no-repeat;
+    background-image: url('../images/watch.png');
+    background-size: cover;
+    border-radius: 15px;
+}
+
+.banner-bg .round-div {
+    background: url('../images/gradient2.png');
+    height: 267px;
+    border-radius: 15px;
+}
+
+.article-part {
+    padding-top: 50px;
+    margin-left: 150px;
+    width: 500px;
+}
+
+.banner-bg .article-part h3 {
+    font-size: 40px;
+    color: #Fff;
+}
+
+.banner-bg .article-part button {
+    margin-top: 20px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+
+/* Footer section styles */
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    padding: 130px 230px;
+    background-color: #000;
+    color: #fff;
+}
+
+footer .right-section {
+    width: 550px;
+}
+
+footer h2 {
+    font-size: 45px;
+}
+
+footer .right-section .footer-desc {
+    font-size: 16px;
+    line-height: 26px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+footer .right-section .footer-email {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+footer .right-section .social-connect-image-linked {
+    cursor: pointer;
+    margin-top: 25px;
+}
+
+footer .subscribe-section h5 {
+    font-size: 25px;
+}
+
+footer .subscribe-section input {
+    display: block;
+    margin-top: 35px;
+    margin-bottom: 25px;
+    background: transparent;
+    border-radius: 10px;
+    /* padding: 15px 80px; */
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 8px;
+    padding-right: 80px;
+    border: 2px solid #fff;
+    color: #fff;
+}
+
+footer .subscribe-section button {
+    font-size: 20px;
+    color: #F15B22;
+}
